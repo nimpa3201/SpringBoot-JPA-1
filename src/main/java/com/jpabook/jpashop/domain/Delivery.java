@@ -10,6 +10,7 @@ import org.hibernate.annotations.Fetch;
 @Entity
 @Getter
 @Setter
+@Table(name ="delivery")
 public class Delivery {
 
     @Id

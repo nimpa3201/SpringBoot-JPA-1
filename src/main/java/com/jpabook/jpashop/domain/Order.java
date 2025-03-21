@@ -32,7 +32,7 @@ public class Order {
 
     private LocalDateTime orderDate; // 주문 시
 
-    private OrderStatus ststus; // 주문 상태 [ORDER , CANCEL]
+    private OrderStatus status; // 주문 상태 [ORDER , CANCEL]
 
     // 연관관계 메서드  -> 양방향일때 !! 편의를 위해
 
