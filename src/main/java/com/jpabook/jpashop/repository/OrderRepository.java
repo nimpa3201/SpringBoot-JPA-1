@@ -3,6 +3,7 @@ package com.jpabook.jpashop.repository;
 
 import com.jpabook.jpashop.domain.Member;
 import com.jpabook.jpashop.domain.Order;
+import com.jpabook.jpashop.repository.order.simplequery.SimpleOrderQueryDto;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
 import jakarta.persistence.criteria.*;
@@ -96,4 +97,5 @@ public class OrderRepository {
                 " join fetch o.delivery d ",Order.class)
             .getResultList();
     }
+
 }
