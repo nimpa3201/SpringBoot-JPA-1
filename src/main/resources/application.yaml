@@ -12,7 +12,8 @@ spring:
     properties:
       hibernate:
         format_sql: true  # SQL을 보기 좋게 정렬
-    # show-sql: true ← 중복 출력 방지를 위해 제거
+        default_batch_fetch_size: 100
+
 
 logging:
   level:
